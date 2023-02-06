@@ -1,0 +1,6 @@
+name: 'Trello Card Moveer'
+description: 'move a trello card into a list when the PR is closed'
+
+runs:
+  using: 'node16'
+  main: 'index.js'

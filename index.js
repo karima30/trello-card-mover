@@ -16,7 +16,7 @@ function moveCardWhenPullRequestClose(apiKey, apiToken) {
   const destinationListId = process.env["TRELLO_DESTINATION_LIST_ID"];
   const start = async () => {
     const branchName = github.context.payload.pull_request.head.ref;
-    const match = branchName.match(/-ky-(?<cardId>[0-9]*)/);
+    const match = branchName.match(/-(ky|KY)-(?<cardId>[0-9]*)/);
     const cardId = match.groups.cardId;
 
     const cards = await getCardsOfList(apiKey, apiToken, exitListId);

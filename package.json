@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theodo/trello-card-mover.git"
+    "url": "git+https://github.com/karima30/trello-card-mover.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theodo/trello-card-mover"
+    "url": "https://github.com/karima30/trello-card-mover"
   },
-  "homepage": "https://github.com/theodo/trello-card-mover",
+  "homepage": "https://github.com/karima30/trello-card-mover",
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^4.0.0",
